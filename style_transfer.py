@@ -65,7 +65,7 @@ col1, col2 , col3= st.columns(3)
 
 
 if not content_image_buffer and not style_image_buffer:
-	st.markdown("# Welcom :wave:")
+	st.markdown("# Welcome :wave:")
 	st.markdown("## Try Style Transfer by uploading *content* and *style* pictures from the sidebar :art:")
 	st.image("images/example.png")
 
